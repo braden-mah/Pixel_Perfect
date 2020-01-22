@@ -7,10 +7,13 @@ p{
     font-size: 50px;
 
 }
+a{
+    word-spacing: normal;
+}
 p.description{
     padding:0px 20px;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 18px;
 }
 h1{
     font-family:'Bangers', times;
@@ -59,10 +62,21 @@ img.px_32_32{
     image-rendering: pixelated;
 }
 figcaption{
+    position: relative;
+    top: 10px;
     text-align: center;
 }
 figure.px_32_32{ 
     width:84;
     height:84;
     display:inline-block;
+}
+img.px_64_64_large{
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width:200;
+    height:200;
 }
