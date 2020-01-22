@@ -1,3 +1,7 @@
+body{
+    background-color: bisque;
+    z-index: -1;
+}
 p{
     font-family: Arial;
     font-size: 50px;
@@ -25,10 +29,12 @@ h1{
     top: 80px;
 }
 .title_banner{
+    background-color: white;
     height: 250;
     border: 4px solid black;
 }
 .gallery{
+    background-color: white;
     height: 500;
     border: 4px solid black;
 }
